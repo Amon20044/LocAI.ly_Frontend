@@ -1,0 +1,7 @@
+navbar , landing page , marquee
+about
+playful
+cards
+cards--after skip
+ready to start
+footer
