@@ -4,11 +4,11 @@ import './LandingPage.css';
 
 function LandingPage() {
     return (
-        <div className='w-screen h-[auto] pt-4 font-["Exo"]'>
+        <div className='w-screen h-[auto] pt-4'>
             <div className='w-screen flex flex-row items-center min-h-[80vh] h-auto content-between z-0 max-md:flex-col max-md:content-center'>
             <div className='ff textstructure mt-18 ml-12 px-16 max-md:mt-32 max-md:ml-4 mt-4 pt-12'>
                 {['LocAI.Ly', 'Guides You', 'Locally'].map((item, index) => (
-                    <div className='masker font-["Quity"]'  key={index}>
+                    <div className='masker quity'  key={index}>
                         <div className=' flex items-center content-center'>
                             
                             <h1 className={`inline-block text-[7.5rem] max-md:text-7xl max-md:-ml-4 leading-[13vh] tracking-wide font-bold ${ (index === 1 || index === 2) && 'uppercase mix-blend-exclusion '} ${index === 0 && 'uppercase text-2xl scale-102 tracking-tighter'}`}>

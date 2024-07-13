@@ -1,3 +1,37 @@
+@font-face {
+  font-family: "Quity";
+  src:
+    local("quity"),
+    url("@/public/fonts/quity.ttf") format("opentype") tech(color-COLRv1),
+    url("@/public/fonts/quity.woff") format("woff"),
+    url("@/public/fonts/quity.woff2") format("woff");
+}
+@font-face {
+  font-family: "Quity";
+  src:
+    local("Quity"),
+    url("@/public/fonts/quity.ttf") format("opentype") tech(color-COLRv1),
+    url("@/public/fonts/quity.woff") format("woff"),
+    url("@/public/fonts/quity.woff2") format("woff2");
+    
+}
+@font-face {
+  font-family: 'Quicksand';
+  src: 
+  local("Quicksand")
+  url(@/public/fonts/Quicksand.woff2) format('woff2'),
+  url(@/public/fonts/Quicksand.woff) format('woff'),
+  url(@/public/fonts/Quicksand.ttf) format("opentype") tech(color-COLRv1);
+}
+@font-face {
+  font-family: 'The Led Display St';
+  src: 
+  local("The Led Display St")
+  url(@/public/fonts/The+Led+Display+St.woff2) format('woff2'),
+  url(@/public/fonts/The-Led-Display-St.woff) format('woff'),
+  url(@/public/fonts/The+Led+Display+St.ttf) format("opentype") tech(color-COLRv1);
+}
+
 .blob {
   width: 400px;
   height: 400px;
@@ -11,3 +45,12 @@
   z-index: -1;
 }
 
+.quity{
+  font-family: "Quity";
+}
+.quicksand{
+  font-family: "Quicksand";
+}
+.led{
+  font-family: "The Led Display St";
+}

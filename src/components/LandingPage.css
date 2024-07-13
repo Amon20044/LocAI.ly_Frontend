@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "Exo" ;
+    src: url(https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap);
+}
+
 .ff{
     font-family: "Exo";
     width: auto;
