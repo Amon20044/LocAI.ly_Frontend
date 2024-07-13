@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="flex content-center items-start min-h-screen m-4 rounded-3xl bg-lime-100 text-black p-12 max-md:px-4 overflow-hidden max-md:m-[.4em]">
+    <div className="flex content-center quity items-start min-h-screen m-4 rounded-3xl bg-lime-100 text-black p-12 max-md:px-4 overflow-hidden max-md:m-[.4em]">
       <div className="container mx-0">
         <h1 className="text-6xl max-md:text-4xl w-full m-0 p-0 font-bold leading-tight pb-8">
           LocAI.ly: Your AI-powered buddy for discovering hidden gems, unique experiences, and the coolest spots in town.

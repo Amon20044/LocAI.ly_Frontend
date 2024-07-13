@@ -6,19 +6,19 @@ function LandingPage() {
     return (
         <div className='w-screen h-[auto] pt-4'>
             <div className='w-screen flex flex-row items-center min-h-[80vh] h-auto content-between z-0 max-md:flex-col max-md:content-center'>
-            <div className='ff textstructure mt-18 ml-12 px-16 max-md:mt-32 max-md:ml-4 mt-4 pt-12'>
+            <div className='ff textstructure mt-18 ml-12 px-16 max-md:mt-32 max-md:ml-4 mt-4 pt-12 mr-[0]'>
                 {['LocAI.Ly', 'Guides You', 'Locally'].map((item, index) => (
-                    <div className='masker quity'  key={index}>
+                    <div className='masker quicksand'  key={index}>
                         <div className=' flex items-center content-center'>
                             
-                            <h1 className={`inline-block text-[7.5rem] max-md:text-7xl max-md:-ml-4 leading-[13vh] tracking-wide font-bold ${ (index === 1 || index === 2) && 'uppercase mix-blend-exclusion '} ${index === 0 && 'uppercase text-2xl scale-102 tracking-tighter'}`}>
+                            <h1 className={`inline-block text-[7vw] -ml-4 -mr-4 max-md:text-7xl max-md:-ml-4 leading-[12vh] tracking-normal font-black ${ (index === 1 || index === 2) && 'uppercase mix-blend-exclusion '} ${index === 0 && 'uppercase text-2xl scale-102 tracking-tighter'}`}>
                                 {item}
                             </h1>
                         </div>
                     </div>
                 ))}
             </div>
-            <div className=' w-[auto] h-[100vh] ml-32 -z-10 max-md:flex-col max-md:-ml-4 max-md:-mt-96'>
+            <div className=' w-[40vw] h-[100vh] ml-0 -z-10 max-md:flex-col max-md:-ml-4 max-md:-mt-96 max-md:w-[100vw]'>
                 <Spline scene="https://prod.spline.design/4f7qqqkli6Y052ce/scene.splinecode" />
             </div>
             </div>

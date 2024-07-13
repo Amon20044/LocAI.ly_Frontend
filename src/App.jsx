@@ -29,7 +29,7 @@ function App() {
           transform: `translate3d(calc(${cursorPosition.x}px - 50%), calc(${cursorPosition.y}px - 50%), 0)`
         }}
       ></div>
-      <div className='w-full bgg text-white quicksand min-h-screen'>
+      <div className='w-full bgg text-white quicksand min-h-screen overflow-x-hidden'>
 
         <Navbar/>
         <LandingPage/>
